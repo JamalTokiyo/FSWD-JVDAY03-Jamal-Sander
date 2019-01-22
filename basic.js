@@ -54,3 +54,21 @@ function productArray() {
 }
 
 productArray();
+
+function weatherAdvicev2() {
+	temp = Math.floor(((Math.random()*50)-5));
+	document.write("<br> It is " + temp + "c outstide. ");
+	if(temp<=10) {
+		document.write("The weather is cold");
+
+	} 
+	else if(temp>=32) {
+		document.write("The weather is hot");
+	}
+    else{
+		document.write("The weather is moderate");
+    }
+}
+
+weatherAdvicev2();
+
