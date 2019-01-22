@@ -73,5 +73,5 @@ function weatherAdvicev2() {
 }
 
 weatherAdvicev2();
-fuc
+
 
