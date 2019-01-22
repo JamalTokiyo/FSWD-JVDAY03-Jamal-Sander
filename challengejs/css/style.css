@@ -1,0 +1,59 @@
+
+body {
+    background-image: linear-gradient(to top, #BADA55 , #557722);
+}
+header {
+  	border: 2px solid #4CAF50;
+    background-image: linear-gradient(to bottom, #BADA55 , #557722);
+	height: 150px;
+	margin-left: 2%;
+	margin-right: 2%;
+    display: flex;
+}
+header h1 {
+	margin: auto;
+	padding: 20px;
+}
+
+#mainContainer {
+}
+
+#shoppingCart {
+  	border: 2px solid #4CAF50;
+    background-image: linear-gradient(to right, #BADA55 , #557722);
+	position: sticky;
+	width: auto;
+	min-width: 185px;
+	margin-top: 10px;
+	margin-right: 2%;
+	padding: 10px;
+  	top: 0;
+	float: right;
+}
+
+#itemContainer {
+	position: relative;
+	width: 70%;
+	margin-left: 1.5%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	overflow: hidden;
+}
+
+.buyableObject {
+	background: #BADA55;
+  	border: 2px solid #4CAF50;
+	width: 100px;
+	height: 100px;
+	margin: 1%;
+	text-align: center;
+	display: flex;
+}
+
+.buyableObject span {
+	background-color: #000000;
+	color: #FFFFFF;
+	margin: auto;
+	margin-bottom: 0;
+}
