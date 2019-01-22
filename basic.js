@@ -1,15 +1,16 @@
 //Basic Ex1
 function weatherAdvice() {
 	temp = Math.floor(((Math.random()*30)-5));
-	console.log("It is " + temp + "c outstide");
+	document.write("It is " + temp + "c outstide");
 	if(temp<=10) {
-		console.log("The weather is cold")
+		document.write("The weather is cold")
 	} else {
-		console.log("The weather is moderate")
+		document.write("The weather is moderate");
 	}
 }
 
 weatherAdvice();
+<<<<<<< HEAD
 
 function highestArray() {
 	array = [0,3,4,1,8];
@@ -34,3 +35,19 @@ function productArray() {
 	}
 	console.log("The product is: " + product)
 }
+=======
+function highestmax(){
+	
+	var array=[-3,1,7,9];
+	max=array[0];
+	for(i=0;i<array.length;i++)
+	{
+		if(array[i]>max){
+			max=array[i];
+		}
+}
+
+		document.write("max the number is"+ max);
+}
+highestmax();
+>>>>>>> bf4d02f4af14bfa965bc99f3e812c976a35f871d
