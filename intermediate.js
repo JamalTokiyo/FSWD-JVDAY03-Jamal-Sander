@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 function calaverage() {
 var average=["martin","Thomas","Klaus","Maria","David"];
 
@@ -15,6 +17,7 @@ var average=["martin","Thomas","Klaus","Maria","David"];
 
 
 calaverage("Thomas");
+
 
 function grades() {
 	names =  ["Martin", "Thomas", "Klaus", "Maria", "David"];
@@ -35,6 +38,8 @@ function grades() {
 	}
 	document.write("<br>The average score is: " + averageScore + "<br> The average grade is: " + averageGrade);
 }
+
+
 
 document.write("<br><br> Intermediate Exercise 1")
 grades();
@@ -57,3 +62,9 @@ console.log("")
 console.log("Intermediate Exercise 2")
 fizzBuzz();
 
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> 4ae8fbf51947308c468b8eb1ae30cdbfacd6a0aa
