@@ -10,7 +10,7 @@ function weatherAdvice() {
 }
 
 weatherAdvice();
-<<<<<<< HEAD
+
 
 function highestArray() {
 	array = [0,3,4,1,8];
@@ -35,7 +35,7 @@ function productArray() {
 	}
 	console.log("The product is: " + product)
 }
-=======
+
 function highestmax(){
 	
 	var array=[-3,1,7,9];
@@ -50,4 +50,4 @@ function highestmax(){
 		document.write("max the number is"+ max);
 }
 highestmax();
->>>>>>> bf4d02f4af14bfa965bc99f3e812c976a35f871d
+
