@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 function calaverage() {
 var average=["martin","Thomas","Klaus","Maria","David"];
 
@@ -61,10 +59,3 @@ function fizzBuzz() {
 console.log("")
 console.log("Intermediate Exercise 2")
 fizzBuzz();
-
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 4ae8fbf51947308c468b8eb1ae30cdbfacd6a0aa
