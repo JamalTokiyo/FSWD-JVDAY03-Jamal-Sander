@@ -25,3 +25,12 @@ function highestArray() {
 }
 
 highestArray();
+
+function productArray() {
+	array = [0,3,4,1,8];
+	product = array[0];
+	for(i = 1; i < array.length; i++) {
+		product*= array[i]
+	}
+	console.log("The product is: " + product)
+}
