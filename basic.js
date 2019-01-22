@@ -68,7 +68,7 @@ function weatherAdvicev2() {
 	}
     else{
 		document.write("The weather is moderate");
-		document.getElementById("weatherIcon").src="../img/mid.png";
+		document.getElementById("weatherIcon").src="img/mid.png";
     }
 }
 
