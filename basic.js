@@ -81,6 +81,9 @@ function weatherAdvicev2() {
 
 document.write("<br><br> Basic Exercise 4")
 weatherAdvicev2();
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 4ae8fbf51947308c468b8eb1ae30cdbfacd6a0aa
