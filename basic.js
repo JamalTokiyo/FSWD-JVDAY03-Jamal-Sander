@@ -1,7 +1,7 @@
 //Basic Ex1
 function weatherAdvice() {
 	temp = Math.floor(((Math.random()*30)-5));
-	document.write("It is " + temp + "c outstide. ");
+	document.write("<br> It is " + temp + "c outstide. ");
 	if(temp<=10) {
 		document.write("The weather is cold")
 	} else {
