@@ -18,9 +18,9 @@ function createItems() {
 	//Find container
 	var container = document.getElementById("itemContainer");
 	//Number of items to be created
-	var desiredItemCount = 20;
+	var desiredItemCount = 100;
 	//Names of items
-	var productNames = ["A shoe", "A horse"]
+	var productNames = ["Shoe", "Horse", "Carrot", "10 Euro Bill", "Lunar Land", "Cheescake"]
 	//For loop that iterates as many times as desired items
 	for(itemCount = 0; itemCount<=desiredItemCount; itemCount++) {
 		//Creates div and span
