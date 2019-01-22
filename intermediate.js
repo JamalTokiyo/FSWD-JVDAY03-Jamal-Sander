@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+
+
+
+
+function calaverage() {
+var average=["martin","Thomas","Klaus","Maria","David"];
+
+	if(average[0]) {
+		document.write("Martin Grade is c");
+		document.getElementById("weatherIcon").src="img/cold.png";
+	} 
+	
+    else if (average[1]){
+		
+		document.write("Martin Grade is c");
+		document.getElementById("weatherIcon").src="img/cold.png";
+	} 
+    }
+
+
+calaverage("Thomas");
+
 function grades() {
 	names =  ["Martin", "Thomas", "Klaus", "Maria", "David"];
 	scores = [76      , 85      , 65     , 93     , 81     ];
@@ -18,6 +41,7 @@ function grades() {
 	document.write("<br>The average score is: " + averageScore + "<br> The average grade is: " + averageGrade);
 }
 
+<<<<<<< HEAD
 document.write("<br><br> Intermediate Exercise 1")
 grades();
 
@@ -38,3 +62,7 @@ function fizzBuzz() {
 console.log("")
 console.log("Intermediate Exercise 2")
 fizzBuzz();
+=======
+grades();
+
+>>>>>>> f951c1d985584a64551d8005e2debf6465655672
