@@ -9,6 +9,7 @@ function weatherAdvice() {
 	}
 }
 
+document.write("<br><br> Basic Exercise 1")
 weatherAdvice();
 
 //Basic Ex2
@@ -25,6 +26,8 @@ function highestArray() {
 	console.log("The max is: " + max);
 }
 
+console.log("")
+console.log("Basic Exercise 2")
 highestArray();
 
 //Basic Ex2
@@ -41,6 +44,8 @@ function highestmax(){
 
 		document.write("<br> max the number is "+ max);
 }
+
+document.write("<br><br> Basic Exercise 2")
 highestmax();
 
 //Basic Ex3
@@ -53,6 +58,8 @@ function productArray() {
 	console.log("The product is: " + product)
 }
 
+console.log("")
+console.log("Basic Exercise 3")
 productArray();
 
 function weatherAdvicev2() {
@@ -72,6 +79,7 @@ function weatherAdvicev2() {
     }
 }
 
+document.write("<br><br> Basic Exercise 4")
 weatherAdvicev2();
 <<<<<<< HEAD
 

@@ -19,5 +19,28 @@ function grades() {
 	document.write("<br>The average score is: " + averageScore + "<br> The average grade is: " + averageGrade);
 }
 
+<<<<<<< HEAD
+document.write("<br><br> Intermediate Exercise 1")
 grades();
 
+function fizzBuzz() {
+	for(i = 1; i <= 100; i++) {
+		if((i%3==0)&&(i%5==0)) {
+			console.log(i + " Fizz Buzz");
+		} else if(i%3==0) {
+			console.log(i + " Fizz");
+		} else if(i%5==0) {
+			console.log(i + " Buzz");
+		} else {
+			console.log(i);
+		}
+	}
+}
+
+console.log("")
+console.log("Intermediate Exercise 2")
+fizzBuzz();
+=======
+grades();
+
+>>>>>>> f951c1d985584a64551d8005e2debf6465655672
