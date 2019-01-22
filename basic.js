@@ -73,5 +73,8 @@ function weatherAdvicev2() {
 }
 
 weatherAdvicev2();
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 5e60509bf2131ffaa3a4927f96cce1f26b79d9d1
