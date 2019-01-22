@@ -60,14 +60,19 @@ function weatherAdvicev2() {
 	document.write("<br> It is " + temp + "c outstide. ");
 	if(temp<=10) {
 		document.write("The weather is cold");
-
+		document.getElementById("weatherIcon").src="img/cold.png";
 	} 
 	else if(temp>=32) {
 		document.write("The weather is hot");
+		document.getElementById("weatherIcon").src="img/hot.png";
 	}
     else{
 		document.write("The weather is moderate");
+
 		document.getElementById("weather").src="../img/mid.png";
+
+		
+
     }
 }
 
