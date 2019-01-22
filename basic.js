@@ -45,7 +45,7 @@ highestmax();
 
 //Basic Ex3
 function productArray() {
-	array = [2,3,4,1,8];
+	array = [1,3,7,10,2];
 	product = array[0];
 	for(i = 1; i < array.length; i++) {
 		product = product * array[i];
